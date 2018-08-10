@@ -4,15 +4,6 @@
 # import the required packages
 import pandas as pd
 
-###### Clean the data ######
-# Read the data from the file
-with open('data/AppStoreData.csv', encoding="utf8") as f:
-    content = f.readlines()
-
-# Remove double quotes everywhere in the file
-for line in content:
-    print(line.replace('\"',''))
-
 ###### Load data into DataFrame ######
 # Read the data into a DataFrame
 app_store_df = pd.read_csv('D:/Projects/Python_Projects/Courses/Machine Learning/data/AppStoreData.csv')
