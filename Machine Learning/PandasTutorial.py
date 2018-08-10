@@ -6,7 +6,7 @@ import pandas as pd
 
 ###### Load data into DataFrame ######
 # Read the data into a DataFrame
-app_store_df = pd.read_csv('D:/Projects/Python_Projects/Courses/Machine Learning/data/AppStoreData.csv')
+app_store_df = pd.read_csv('data/AppStoreData.csv')
 
 # pandas.DataFrame.head() -- Prints the first N rows of a DataFrame, 5 by Default
 # pandas.DataFrame.tail() -- Prints the last N rows of a DataFrame, 5 by Default
