@@ -1,0 +1,11 @@
+Genre,Age,Budget,Liked
+Horror,23,57000,Yes
+Comedy,34,77000,Yes
+Action,27,56000,No
+Comedy,42,34000,Yes
+Action,32,,No
+Horror,31,65000,No
+Comedy,,42000,No
+Horror,30,63000,Yes
+Action,40,76000,No
+Horror,22,67000,Yes
